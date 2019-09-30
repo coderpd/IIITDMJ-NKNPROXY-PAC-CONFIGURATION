@@ -1,7 +1,7 @@
-#This is simple pac file written in Java Script
-#Coder- Priyanshu Dwivedi, Btech 2nd year, IIITDMJ
-#This can be used as a proxy configuration in the campus of IIITDMJ
-#Some basic Exception added
+//This is simple pac file written in Java Script
+//Coder- Priyanshu Dwivedi, Btech 2nd year, IIITDMJ
+//This can be used as a proxy configuration in the campus of IIITDMJ
+//Some basic Exception added
 var FindProxyForURL = function(init, profiles) {
     return function(url, host) {
         "use strict";
